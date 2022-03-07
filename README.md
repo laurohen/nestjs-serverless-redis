@@ -29,6 +29,10 @@ npm run serverless
 ```sh
 http://localhost:3000/dev/api//
 ```
+
+![image](https://user-images.githubusercontent.com/30203949/157025048-4a7496e9-0677-46bc-88c4-b7b863465b00.png)
+
+
 - Use via Postman:
 ```sh
 POST - http://localhost:3000/dev/task
