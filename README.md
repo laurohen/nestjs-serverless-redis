@@ -1,6 +1,13 @@
 # nestjs-serverless-redis
 Task manager using serverless + nestjs + redis
 
+### To start testing the project need to use Redis
+
+### Usage
+
+#### Run `redis-server`
+
+    docker run -d --name redis -p 6379:6379 redis
 
 
 ### How to run whole project?
