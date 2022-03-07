@@ -1,0 +1,22 @@
+service: serverless-task-management
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  main:
+    handler: dist/main.handler
+    events:
+      - http:
+          method: ANY
+          path: /
+      - http:
+          method: ANY
+          path: '{proxy+}'
+custom:
+    optimize:
+        external: ['swagger-ui-dist']
